@@ -4,11 +4,9 @@ import numpy as np
 import spacy
 import os
 
-try:
-    nlp = spacy.load("en_core_web_sm")
-except:
-    os.system('cmd /k "python -m spacy download en"')
-    nlp = spacy.load("en_core_web_sm")
+
+nlp = spacy.load("en_core_web_sm")
+
 import nltk
 
 nltk.download("vader_lexicon")
