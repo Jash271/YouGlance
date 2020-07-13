@@ -1,1 +1,0 @@
-# For Documentation Refer : [ Doc Link ](https://github.com/Jash271/YouGlance/blob/master/README.md)
