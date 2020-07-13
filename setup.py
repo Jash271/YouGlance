@@ -10,9 +10,9 @@ setuptools.setup(
     name="YouGlance",
     license="MIT",
     description=f"Package for analyzing Youtube Videos from searching by relevant entities to analyzing sentiments and clustering different parts of the video according to your liking ",
-    version="v0.0.2",
+    version="v0.0.3",
     long_description=description,
-    url="https://github.com/Jash271/YouSpy",
+    url="https://github.com/Jash271/YouGlance",
     packages=setuptools.find_packages(),
     python_requires=">=3.6.8",
     install_requires=[
