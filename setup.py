@@ -1,7 +1,7 @@
 import setuptools
 
 
-with open("README.md") as f:
+with open("Documentation.rst") as f:
     description = f.read()
 
 setuptools.setup(
