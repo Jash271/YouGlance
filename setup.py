@@ -7,7 +7,7 @@ with open("README.md") as f:
 setuptools.setup(
     author="Jash Shah",
     author_email="shahjash271@gmail.com",
-    name="YouSpy",
+    name="YouGlance",
     license="MIT",
     description=f"Package for analyzing Youtube Videos from searching by relevant entities to analyzing sentiments and clustering different parts of the video according to your liking ",
     version="v0.0.1",
