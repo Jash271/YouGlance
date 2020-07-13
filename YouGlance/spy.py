@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import spacy
+import os
 
 try:
     nlp = spacy.load("en_core_web_sm")
