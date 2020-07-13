@@ -2,10 +2,12 @@
 import pandas as pd
 import numpy as np
 import spacy
-
-nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    os.system('cmd /k "python -m spacy download en"')
+    nlp = spacy.load("en_core_web_sm")
 import nltk
-
 nltk.download("vader_lexicon")
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
