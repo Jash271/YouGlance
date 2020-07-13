@@ -1,5 +1,5 @@
 import setuptools
-from setuptools import setup,Extension
+from setuptools import setup, Extension
 
 with open("Documentation.rst") as f:
     description = f.read()
