@@ -10,6 +10,7 @@ nlp = spacy.load("en_core_web_sm")
 import nltk
 
 nltk.download("vader_lexicon")
+nltk.download('punkt')
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import re
