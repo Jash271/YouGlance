@@ -1,3 +1,4 @@
+[![Downloads](https://pepy.tech/badge/youglance)](https://pepy.tech/project/youglance)
 # Documentation
 
 ## Note: After Having installed the package ,you may need to additionally run this command in your command prompt,in the same enviornment you previously installed the package 
